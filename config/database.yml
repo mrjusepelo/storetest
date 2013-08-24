@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: store_development
+  database: almacen_development
   pool: 5
   username: chevy
   password: 123456
@@ -9,7 +9,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: store_test
+  database: almacen_test
   pool: 5
   username: chevy
   password: 123456
@@ -17,7 +17,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: store_production
+  database: almacen_production
   pool: 5
   username: chevy
   password: 123456
